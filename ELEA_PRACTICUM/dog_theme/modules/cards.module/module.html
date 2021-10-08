@@ -1,0 +1,17 @@
+<div class="cards">
+  {% for card in module.dog_card %}
+  <div class="cards__card card">
+    {% if card.image_card.src %}
+    <div class="card__image">
+      <img src="{{ card.image_card.src }}" alt="{{ card.image_card.alt }}">
+    </div>
+    {% endif %}
+    <div class="card__title">
+      {{ card.title_card }}
+    </div>
+    <div class="card__text">
+       {{ card.text_card }}
+    </div>
+  </div>
+  {% endfor %}
+</div>

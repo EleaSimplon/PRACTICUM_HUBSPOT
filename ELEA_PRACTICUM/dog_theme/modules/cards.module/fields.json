@@ -1,0 +1,99 @@
+[ {
+  "id" : "f7ad39f9-2e18-f6d1-1eb8-8640262b7e10",
+  "name" : "dog_card",
+  "label" : "card",
+  "required" : false,
+  "locked" : false,
+  "occurrence" : {
+    "min" : 0,
+    "max" : null,
+    "sorting_label_field" : "08ff5330-5895-64b7-5217-9106da50d320",
+    "default" : 3
+  },
+  "children" : [ {
+    "id" : "6fd80515-830b-e003-4787-b7c965d45372",
+    "name" : "image_card",
+    "label" : "Image",
+    "required" : false,
+    "locked" : false,
+    "responsive" : true,
+    "resizable" : false,
+    "show_loading" : false,
+    "type" : "image",
+    "default" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent40.net/hubfs/7482495/nag5.jpg",
+      "alt" : "nag5",
+      "loading" : "lazy",
+      "width" : 828,
+      "height" : 828,
+      "max_width" : 828,
+      "max_height" : 828
+    }
+  }, {
+    "id" : "e3b862e2-025b-62c2-30e8-4fd2d661edb0",
+    "name" : "title_card",
+    "label" : "Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Naga"
+  }, {
+    "id" : "08ff5330-5895-64b7-5217-9106da50d320",
+    "name" : "text_card",
+    "label" : "Text",
+    "required" : false,
+    "locked" : false,
+    "validation_regex" : "",
+    "allow_new_line" : false,
+    "show_emoji_picker" : false,
+    "type" : "text",
+    "default" : "Baby me"
+  } ],
+  "tab" : "CONTENT",
+  "expanded" : false,
+  "type" : "group",
+  "default" : [ {
+    "image_card" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent40.net/hubfs/7482495/nag5.jpg",
+      "alt" : "nag5",
+      "loading" : "lazy",
+      "width" : 828,
+      "height" : 828,
+      "max_width" : 828,
+      "max_height" : 828
+    },
+    "title_card" : "Naga",
+    "text_card" : "Baby me"
+  }, {
+    "image_card" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent40.net/hubfs/7482495/nag5.jpg",
+      "alt" : "nag5",
+      "loading" : "lazy",
+      "width" : 828,
+      "height" : 828,
+      "max_width" : 828,
+      "max_height" : 828
+    },
+    "title_card" : "Naga",
+    "text_card" : "Baby me"
+  }, {
+    "image_card" : {
+      "size_type" : "auto",
+      "src" : "https://f.hubspotusercontent40.net/hubfs/7482495/nag5.jpg",
+      "alt" : "nag5",
+      "loading" : "lazy",
+      "width" : 828,
+      "height" : 828,
+      "max_width" : 828,
+      "max_height" : 828
+    },
+    "title_card" : "Naga",
+    "text_card" : "Baby me"
+  } ]
+} ]
